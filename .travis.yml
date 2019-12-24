@@ -38,7 +38,7 @@ matrix:
       - PARALLEL_TESTS='false'
       - CMAKE_EXTRA_ARGS='-Werr=ON -Dcoverage=ON'
       - PATH=$PWD/cmake/bin:$PATH
-      - APP=ripplelibppdemo
+      - APP=brtlibppdemo
 
 cache:
   directories:

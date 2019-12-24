@@ -56,7 +56,7 @@ in the submodule, only a subset of it is used by the library.
 
 ## Demo
 
-Code examples are provided in `src/test/ripple-libpp_demo.cpp`
+Code examples are provided in `src/test/brt-libpp_demo.cpp`
 to demonstrate how to create, sign, and verify the signature of a
 transaction. Building and running this demo is an optional step to
 verify that dependencies are installed and available as expected.
@@ -82,7 +82,7 @@ $ mkdir -p build/debug
 $ cd build/debug
 $ cmake ../.. -DCMAKE_BUILD_TYPE=Debug
 $ cmake --build .
-$ ./ripplelibppdemo
+$ ./brtlibppdemo
 ```
 
 For 64-bit Windows, open a MSBuild Command Prompt for Visual Studio
@@ -94,7 +94,7 @@ and run the following commands:
 > cd build
 > cmake -G"Visual Studio 15 2017 Win64" ..
 > cmake --build .
-> .\Debug\ripplelibppdemo.exe
+> .\Debug\brtlibppdemo.exe
 ```
 
 32-bit Windows builds are not supported.
